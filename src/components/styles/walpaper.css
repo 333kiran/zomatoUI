@@ -1,0 +1,55 @@
+.Container {
+    position: relative;
+    
+    height:55vh;
+    width:100vw;
+    text-align:center;
+}
+
+.Logo {
+    position: absolute;
+    top:43px;
+    left:45rem;
+    padding-top:2rem;
+}
+
+.Text {
+    position: absolute;
+    top:70px;
+    left:30rem;
+    padding-top:8rem;
+    color:#fff;
+    font-weight:600;
+    font-family:sans-sarif;
+    font-size:2rem;
+}
+
+.InputBox {
+    position: absolute;
+    top:16rem;
+    left:34rem;
+    display:flex;
+    justify-content:center;
+    height:3rem;
+}
+#query {
+    outline: none;
+    border: none;
+}
+
+.SelectBox {
+display:flex;
+flex-wrap:wrap;
+width:12rem;
+background:#fff;
+color:black;
+padding:4px 15px;
+border-radius:3px;
+}
+.SearchBox {
+    background:#fff;
+    color:black;
+    margin-left:2rem;
+    padding:5px 25px;
+    border-radius:6px;
+}
